@@ -1,0 +1,1 @@
+This project has the code for a arduino powering a head with AI vision to turn the system to people looking at it.

@@ -1,0 +1,17 @@
+#include <Servo.h>
+
+Servo myservo;  // create servo object to control a servo
+
+void setup() {
+  myservo.attach(9);  // the pin where the servo is attached
+  Serial.begin(9600);  // start serial communication at 9600bps
+}
+
+void loop() {
+  if (Serial.available()) {
+    int pos = Serial.parseInt();  // read the incoming number
+    if (Serial.read() == '\n') {  // if the incoming character is a newline, the number is complete
+      myservo.writeMicroseconds(pos);  // move the servo with the received microseconds
+    }
+  }
+}
