@@ -3,7 +3,9 @@ from pvrecorder import PvRecorder
 import openai
 import wave, struct 
 import time
-#Nothing  to see here
+#Making a change right here
+
+
 # Test chjange
 
 
