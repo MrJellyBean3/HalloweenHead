@@ -3,8 +3,9 @@ from pvrecorder import PvRecorder
 import openai
 import wave, struct 
 import time
-
+#Nothing  to see here
 # Test chjange
+
 
 # Record audio
 def record_audio(return_queue):
