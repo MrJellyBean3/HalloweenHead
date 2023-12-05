@@ -4,6 +4,7 @@ import openai
 import wave, struct 
 import time
 
+# Test chjange
 
 # Record audio
 def record_audio(return_queue):
